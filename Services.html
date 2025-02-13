@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+</head>
+<style>
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #050505;
+    padding: 1em 1em;
+    flex-wrap: wrap;
+}
+.navbar .links {
+    display: flex;
+    gap: 1em;
+    margin-left: 47em;
+}
+.navbar .links a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.4em 1em;
+    background-color:#e91e63;
+    border-radius: 20px;
+    font-size: 1em;
+}
+.navbar .links a:hover {
+    background-color: #050505;
+}
+body{
+    background-color: #050505;
+    color: #ededed;
+}
+#services{
+    color: aliceblue;
+    font-size: 20px;
+    margin-bottom: 8rem;
+}
+.sub-title{
+    text-align: center;
+    font-size: 55px;
+    padding-bottom:10px;
+    margin-top:0px;
+    padding:0em;
+}
+.sub-title span{
+    color: #e91e63;
+}
+.container{
+    padding: 60px;
+}
+.services-list{
+    display: grid;
+    grid-gap:45px;
+    margin-top: 10px;
+}
+.services-list div{
+    background-color: transparent;
+    padding: 30px;
+    font-size: 13px;
+    font-weight: 13px;
+    border-right: 90px;
+    border-radius: 20px;
+    transition: background 0.5s,transform 0.5s;
+    box-shadow: 1px 1px 10px #f8f7f7,
+    1px 1px 10px #f5f2f3;
+}
+.services-list div i{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.services-list div h2{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 15px;
+
+}
+.services-list div a{
+    text-decoration: none;
+    color:#000000;
+    font-size: 12px;
+    margin-top: 20px;
+    display: inline-block;
+}
+.services-list h2{
+    color:#e91e63;
+    line-height: 1.9;
+}
+.services-list p{
+    font-size: 20px;
+}
+.read{
+    display:inline-block;
+    padding: 12px 28px;
+    background: #e91e63;
+    border-radius: 40px;
+    font-size: 16px;
+    color: #acb5bb;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 600;
+    opacity: 0;
+    animation: slideTop 1s ease forwards;
+    animation-delay:2s;
+    box-shadow: 0 0 5px #e91e63,
+    0 0 25px #e91e63;
+}
+.read:hover{
+    box-shadow: 0 0 5px #e91e63,
+    0 0 25px #e91e63,0 0 50px #e91e63,
+    0 0 100px #e91e63,0 0 200px #e91e63;
+}
+.btn-box{
+    display:inline-block;
+    padding: 12px 28px;
+    background: #e91e63;
+    border-radius: 40px;
+    font-size: 16px;
+    color: #080808;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 600;
+    opacity: 0;
+    animation: slideTop 1s ease forwards;
+    animation-delay:2s;
+    box-shadow: 0 0 5px #e91e63,
+    0 0 25px #e91e63;
+}
+.btn-box:hover{
+    box-shadow: 0 0 5px #e91e63,
+    0 0 25px #e91e63,0 0 50px #e91e63,
+    0 0 100px #e91e63,0 0 200px #e91e63; 
+}
+</style>
+<body>   
+    <div class="navbar">
+        <div class="links">
+          <a href="C:\Users\Devadharshini\OneDrive\Desktop\PORTFOLIO\New folder\New folder\port.html">Home</a>
+          <a href="C:\Users\Devadharshini\OneDrive\Desktop\PORTFOLIO\New folder\New folder\About.html">About</a>
+          <a href="C:\Users\Devadharshini\OneDrive\Desktop\PORTFOLIO\New folder\New folder\Services.html">Services</a>
+          <a href="C:\Users\Devadharshini\OneDrive\Desktop\PORTFOLIO\New folder\New folder\port.html">Portfolio</a>
+          <a href="C:\Users\Devadharshini\OneDrive\Desktop\PORTFOLIO\New folder\New folder\contact2.html">Contact Us</a>
+        </div>
+      </div>
+<section>
+    <div class="services" id="services">
+        <div class="container">
+            <h1 class="sub-title">My <span>Services</span></h1>
+            <div class="services-list">
+                <div>
+                    <i class='bx bx-code' style='color:#00eeff'></i>
+                    <h2><b>UI&UX Design</b></h2>
+                    <p>Passionate UI/UX designer at a fresher level, skilled in creating visually appealing and user-centered designs. 
+                        Proficient in wireframing, prototyping, and understanding user journeys to enhance user satisfaction and experience. 
+                        Ready to bring creative ideas and intuitive solutions to life, ensuring seamless interaction and engagement for every project.</p>
+                        <a href="#" class="read">lern more</a>
+                </div>
+                <div>
+                    <i class='bx bx-crop'style='color:#00eeff'></i>
+                    <h2><b>GRAPHIC DESIGN</b></h2>
+                    <p>Service design is a process of design focused on how employees will offer a service and how customers will use a product.
+                        This includes thinking about the people, props, and processes involved in providing the service and 
+                        applying service design principles to optimize for efficiency and enjoyable customer experiences.</p>
+                        <a href="#" class="read">lern more</a>
+                </div>
+                <div>
+                    <i class='bx bxl-apple' style='color:#00eeff'></i>
+                    <h2><b>WEB DESIGN</b></h2>
+                    <p>A web designer creates the layout and design of a website. In simple terms, a website designer makes a site look good.
+                         They use design programmes to create visual elements and usually have expertise in user interface (UI), 
+                         which means they strategically design a site that's intuitive and easy for visitors to navigate.</p>
+                        <a href="#" class="read">lern more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</body>
+</html>

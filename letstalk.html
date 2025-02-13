@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<style>
+    body{
+        background-color: #070707;
+    }
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #070707;
+      padding: 1em 1em;
+      flex-wrap: wrap;
+    }
+    .navbar .links {
+      display: flex;
+      gap: 1em;
+      margin-left: 47em;
+    }
+
+    .navbar .links a {
+      color: #fff;
+      text-decoration: none;
+      padding: 0.4em 1em;
+      background-color:#e91e63;
+      border-radius: 20px;
+      font-size: 1em;
+    }
+
+    .navbar .links a:hover {
+      background-color: #050505;
+    }
+    .contact{
+        position: relative;
+        min-height: 100vh;
+        padding: 1px 100px;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        flex-direction: column;
+        background-size: cover;
+    }
+    .contact .content{
+        max-width: 800px;
+        text-align: center;
+        margin-top: 0px;
+    }
+    .contact .content h2{
+        font-size: 55px;
+        font-weight: 560;
+        color:#e91e63;
+        line-height: 1.2;
+    }
+    .contact .content p{
+        font-weight: 400;
+        color: #fff;
+        font-size: 20px;
+    }
+    .container
+    {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+
+    }
+    .container .contactinfo
+    {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        line-height: 1.1;
+
+    }
+    .container .contactinfo .Box{
+        position: relative;
+        padding: 10px 0;
+        display: flex;
+
+    }
+    .container .contactinfo .Box .icon{
+        min-width: 60px;
+        height: 60px;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        font-size: 25px;
+    }
+    .container .contactinfo .Box .text
+    {
+        display: flex;
+        margin-left: 20px;
+        color: #fff;
+        font-size: 16px;
+        flex-direction: column;
+        font-weight: 200;
+    }
+    .container .contactinfo .Box .text h3{
+        font-weight: 600;
+        color:#e91e63;
+        line-height: 1.3;
+        margin-top: 9px;
+
+    }
+    .contactForm{
+        width: 35%;
+        padding: 30px;
+        background:#fff;
+        margin-top:10px;
+        margin-left: 60px;
+        border-radius: 10px;
+        transition: background 0.1s,transform 0.2s;
+        box-shadow: 1px 1px 5px #e91e63,
+        1px 2px 30px #6b6a6af7;
+    }
+    .contactForm h2{
+        font-size: 30px;
+        color: #080808;
+        font-weight: 600;
+        margin-top: 10px;
+        text-align: center;
+    }
+    .contactForm .inputBox{
+        position: relative;
+        width: 100%;
+        margin-top: 13px;
+
+    }
+    .contactForm .inputBox input,
+        .contactForm .inputBox textarea{
+        width: 100%;
+        padding: 4px 0;
+        font-size: 16px;
+        border:none;
+        border-bottom: 2px solid #abe0f0;
+        outline: none;
+        resize: none;
+        margin: 7px 0;
+    }
+    .contactForm .inputBox span{
+        position: absolute;
+        left: 0;
+        padding: 5px 0;
+        font-size: 16px;
+        margin: 7px 0;
+        pointer-events: none;
+        transition: 0.5s;
+        color: #3d3c3c;
+    }
+    .contactForm .inputBox input:focus ~ span,
+    .contactForm .inputBox input:valid ~ span,
+    .contactForm .inputBox textarea:focus ~ span,
+    .contactForm .inputBox textarea:valid ~ span{
+        color: #e91e63;
+        font-size:12px;
+        transform:translateY(-20px);
+    }
+    .contactForm .inputBox input[type="submit"]
+    {
+        width: 100px;
+        background: #e91e63;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+        padding: 10px;
+        font-size: 18px;
+        border-radius: 10px;
+        margin-left: 145px;
+    }
+    @media (max-width:991px)
+    {
+        .contact
+        {
+            padding: 50px;
+        }
+        .container
+        {
+            flex-direction: column;
+        }
+        .container .contactinfo
+        {
+            margin-bottom: 40px;
+        }
+        .container .contactinfo
+        {
+            width: 100%;
+        }
+    }
+
+</style>
+<body>
+    <div class="navbar">
+        <div class="links">
+          <a href="C:\Users\Devadharshini\OneDrive\Desktop\PORTFOLIO\New folder\New folder\port.html">Home</a>
+          <a href="C:\Users\Devadharshini\OneDrive\Desktop\PORTFOLIO\New folder\New folder\About.html">About</a>
+          <a href="C:\Users\Devadharshini\OneDrive\Desktop\PORTFOLIO\New folder\New folder\Services.html">Services</a>
+          <a href="C:\Users\Devadharshini\OneDrive\Desktop\PORTFOLIO\New folder\New folder\port.html">Portfolio</a>
+          <a href="C:\Users\Devadharshini\OneDrive\Desktop\PORTFOLIO\New folder\New folder\contact2.html  ">Contact Us</a>
+        </div>
+      </div>
+    <section class="contact">
+        <div class="content">
+            <h2>Get In Touch!</h2>
+            <p> A section providing essential contact details, including email, phone number, and portfolio link, to facilitate professional communication and networking opportunities.</p>
+        </div>
+        <div class="container">
+            <div class="contactinfo">
+            <div class="Box">
+                <div class="icon"><i class='bx bx-current-location' ></i></div>
+                <div class="text">
+                    <h3>Address</h3>
+                    <p>363,Melkattiyagoundanur,kalpavi(po),bhavani(Tk),Erode-638314</p>
+                </div>
+            </div>
+            <div class="Box">
+                <div class="icon"><i class='bx bxs-phone'></i></i></div>
+                <div class="text">
+                    <h3>Phone</h3>
+                    <p>975-005-2677</p>
+                </div>
+            </div>
+                <div class="Box">
+                <div class="icon"><i class='bx bx-envelope' ></i></div>
+                <div class="text">
+                    <h3>Email</h3>
+                    <p>devadharshiniragu@gmail.com</p>
+                </div>
+            </div>
+        </div>
+        <div class="contactForm">
+            <form>
+                <h2>Send Message</h2>
+                <div class="inputBox">
+                    <input type="text"name="" required="required">
+                    <span>Full Name</span>
+                </div>
+                <div class="inputBox">
+                    <input type="text"name="" required="required">
+                    <span>Email</span>
+                </div>
+                <div class="inputBox">
+                    <textarea required="required"></textarea>
+                    <span>Type Your Message...</span>
+                </div>
+                <div class="inputBox">
+                    <input type="submit"button onclick="fun()" value="Send">
+                </div>
+            </form>
+        </div>   
+        <script>
+            function fun(){
+                alert("Successfully Sended..!")
+            }
+        </script>  
+    </div>
+</section> 
+</body>
+</html>
